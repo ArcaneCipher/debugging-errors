@@ -4,6 +4,6 @@ if (input) {
   console.log(reverse(input));
 }
 
-function reverse(original) {
+const reverse = function (original) {
   return original.split('').reverse().join('');
 }

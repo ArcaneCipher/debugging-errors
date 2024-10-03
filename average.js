@@ -1,4 +1,4 @@
-function average(list) {
+const average = function (list) {
   var sum = 0;
 
   for (var num of list) {
